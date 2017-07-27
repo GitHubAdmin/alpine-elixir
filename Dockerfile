@@ -1,6 +1,6 @@
-FROM derailed/alpine-erlang:19.1
+FROM providigm/alpine-erlang:19.1
 
-ENV ELIXIR_VERSION  1.4.2
+ENV ELIXIR_VERSION  1.4.5
 ENV ELIXIR_REPO_URL https://github.com/elixir-lang/elixir/releases/download/v${ELIXIR_VERSION}/Precompiled.zip
 
 RUN set -ex;\

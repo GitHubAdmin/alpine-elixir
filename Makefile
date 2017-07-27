@@ -1,5 +1,5 @@
-VERSION := 1.4.2
-NAME := derailed/alpine-elixir
+VERSION := 1.4.5
+NAME := providigm/alpine-elixir
 
 img:
 	docker build -f Dockerfile --rm -t $(NAME):$(VERSION) .
