@@ -1,4 +1,4 @@
-VERSION := 1.4.5
+VERSION := 1.5.2
 NAME := providigm/alpine-elixir
 
 img:
